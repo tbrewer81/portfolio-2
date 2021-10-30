@@ -1,0 +1,26 @@
+body{
+  border: 5px solid black;
+}
+.container {
+    display: grid; 
+    grid-template-areas: "head head name"
+                          "pic about-me about-me"
+                          "experience experience experience" 
+                          "education education education";
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 0.8fr 1.9fr 2fr 2fr; 
+    gap: 0px 0px; 
+    Font-family:Times New Roman;
+    color: green;
+    
+  
+  background-color: pink; 
+}
+  .pic { grid-area:pic}
+  .Header { grid-area: head }
+  .about-me { grid-area:about-me  }
+  .experience { grid-area: experience }
+  .education { grid-area: education }
+  .Name { grid-area:name}
+  
+
